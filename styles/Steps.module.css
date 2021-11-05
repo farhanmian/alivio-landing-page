@@ -1,0 +1,87 @@
+.steps {
+    margin-top: 84px;
+    margin-bottom: 25px; 
+}
+
+.container {
+    width: 1413px;
+    height: 1386px;
+    margin: auto;
+    position: relative;
+}
+
+/* steps top part (heading part) */
+.top {
+    max-width: 1391px;
+    height: 327px;
+    margin: auto
+}
+
+/* steps bottom part (boxes part) */
+
+.boxContainer {
+    max-width: 1413px;
+    max-height: 1141px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 246px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 95px;
+}
+
+.box0 {
+    width: 390px;
+    height: 937px;
+}
+.box1 {
+    width: 392px;
+    height: 854px;
+    margin-top: 287px;
+}
+.box2 {
+    width: 441px;
+    height: 856px;
+    margin-right: 0;
+    margin-top: 54px;
+}
+
+.boxHeadingContainer0, .boxHeadingContainer1, .boxHeadingContainer2 {
+    height: 225px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.boxHeadingContainer0 {
+    width: 269px;
+}
+.boxHeadingContainer1 {
+    width: 392px;
+}
+.boxHeadingContainer2 {
+    width: 226px;
+    margin-bottom: 1px;
+}
+
+
+.bgText0 {
+    width: 157;
+}
+.bgText1,.bgText2 {
+    width: 176px;
+}
+.bgText2 {
+    display: flex;
+}
+.bgText2 span {
+    margin-top: 20px;
+}
+
+.boxImg {
+    width: 390px;
+    height: 492px;
+}

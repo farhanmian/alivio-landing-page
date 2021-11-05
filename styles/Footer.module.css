@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 84px;
+    background-color: #245852;
+    padding: 95px 275px 144px 275px;
+}
+
+.container {
+    width: 130px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container a {
+    margin-bottom: 60px;
+}
+
+.container a:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,37 @@
+.nav {
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 79.57px;
+    max-height: 23.04px;
+    margin-right: 172px;
+}
+
+.navLink {
+    max-height: 24px;
+    margin-right: 284px;
+}
+
+.navLink a {
+    color: #292929;
+    cursor: pointer;
+    transition: all .2s;
+    font-family: 'Lato';
+}
+
+.navLink a:not(:last-child) {
+    margin-right: 72px;
+}
+
+.navLink a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #292929;
+}
+
+.btn {
+    font-family: 'Lato';
+}

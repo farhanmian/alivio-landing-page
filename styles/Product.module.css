@@ -1,0 +1,36 @@
+.product {
+    margin-top: 60px;
+    margin-bottom: 83px;
+}
+
+.container {
+    max-width: 1370px;
+    max-height: 648px;
+    margin: auto;
+}
+
+.imgContainer {
+    max-width: 699.37px;
+    max-height: 648px;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+}
+.img1 {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.img2 {
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.textContainer {
+    max-width: 584px;
+    max-height: 413px;
+}
