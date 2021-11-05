@@ -4,13 +4,22 @@ import cssClasses from '../../../styles/Footer.module.css';
 
 const useStyles = makeStyles({
     logo: {
-        color: common.white
+        color: common.white,
+        '&:hover': {
+            textDecoration: 'none',
+            cursor: 'pointer'
+        }
     },
     link: {
         fontFamily: 'Lato',
-        color: '#fff'
+        color: '#fff',
+        cursor: 'pointer'
+    },
+    linkText: {
+        // fontSize: 25,
+        fontWeight: 600,
     }
-}) 
+})
 
 const Footer = () => {
     const classes = useStyles();
@@ -18,16 +27,24 @@ const Footer = () => {
         <footer className={cssClasses.footer}>
             <div className={cssClasses.container}>
 
-                <Link className={classes.logo}>
+                <Link href="#" className={classes.logo}>
                     <Typography variant="h3">
                         Alivio
                     </Typography>
                 </Link>
 
-                <Link className={classes.link}>Why Alivio</Link>
-                <Link className={classes.link}>Solutions</Link>
-                <Link className={classes.link}>Community</Link>
-                <Link className={classes.link}>Pricing</Link>
+                <Link href="#" className={classes.link}>
+                    <Typography variant="body2" className={classes.linkText}> Why Alivio </Typography>
+                </Link>
+                <Link href="#" className={classes.link}>
+                    <Typography variant="body2" className={classes.linkText}> Solutions </Typography>
+                </Link>
+                <Link href="#" className={classes.link}>
+                    <Typography variant="body2" className={classes.linkText}> Community </Typography>
+                </Link>
+                <Link href="#" className={classes.link}>
+                    <Typography variant="body2" className={classes.linkText}> Pricing </Typography>
+                </Link>
 
             </div>
         </footer>

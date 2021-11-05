@@ -44,7 +44,7 @@ const useStyles = makeStyles({
         marginTop: 20,
         marginBottom: 40
     }
-})
+});
 
 const Product = () => {
     const classes = useStyles();

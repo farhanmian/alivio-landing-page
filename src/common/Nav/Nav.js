@@ -4,9 +4,15 @@ import logo from '../../../public/icon/logo.png';
 import cssClasses from '../../../styles/Nav.module.css';
 
 const useStyles = makeStyles({
+    logo: {
+        maxWidth: 79.57,
+        maxHeight: 23.04,
+        marginRight: 172,
+    },
     btnText: {
         marginRight: 35,
-        textTransform: 'capitalize'
+        textTransform: 'capitalize',
+        padding: 0
     },
     containedBtnText: {
         textTransform: 'capitalize',
@@ -19,7 +25,8 @@ const useStyles = makeStyles({
     link: {
         fontSize: 20,
         lineHeight: '24px',
-        fontWeight: 500
+        fontWeight: 500,
+        cursor: 'pointer'
     }
 });
 
@@ -28,15 +35,15 @@ const Nav = () => {
 
     return (
         <nav className={cssClasses.nav}>
-            <div className={cssClasses.logo}>
+            <Link href="#" className={classes.logo}>
                 <Image src={logo} />
-            </div>
+            </Link>
 
             <div className={cssClasses.navLink}>
-                <Link className={classes.link} color="textPrimary">Why Alivio</Link>
-                <Link className={classes.link} color="textPrimary">Solutions</Link>
-                <Link className={classes.link} color="textPrimary">Community</Link>
-                <Link className={classes.link} color="textPrimary">Pricing</Link>
+                <Link href="#" className={classes.link} color="textPrimary">Why Alivio</Link>
+                <Link href="#" className={classes.link} color="textPrimary">Solutions</Link>
+                <Link href="#" className={classes.link} color="textPrimary">Community</Link>
+                <Link href="#" className={classes.link} color="textPrimary">Pricing</Link>
             </div>
 
             <div className={cssClasses.btnContainer}>

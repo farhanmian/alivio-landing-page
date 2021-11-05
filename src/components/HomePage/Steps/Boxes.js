@@ -54,7 +54,7 @@ const useStyles = makeStyles({
 })
 
 
-export default function Boxes(props) {
+const Boxes = () => {
     const classes = useStyles();
 
     return (
@@ -84,3 +84,6 @@ export default function Boxes(props) {
         </div>
     )
 }
+
+
+export default Boxes;

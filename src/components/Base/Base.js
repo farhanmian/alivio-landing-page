@@ -27,7 +27,6 @@ const Base = () => {
             <Divider />
 
             <Footer />
-
         </ThemeProvider >
     )
 }

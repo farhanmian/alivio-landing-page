@@ -4,7 +4,7 @@ import Top from './Top';
 
 
 
-export default function Steps() {
+const Steps =()=> {
     return (
         <section className={cssClasses.steps}>
             <div className={cssClasses.container}>
@@ -14,3 +14,5 @@ export default function Steps() {
         </section>
     )
 }
+
+export default Steps;

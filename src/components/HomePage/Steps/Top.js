@@ -1,5 +1,4 @@
 import { makeStyles, Typography, Grid } from "@material-ui/core"
-import { grey } from "@material-ui/core/colors";
 import cssClasses from '../../../../styles/Steps.module.css';
 
 const useStyles = makeStyles({
@@ -15,18 +14,18 @@ const useStyles = makeStyles({
     }
 })
 
-export default function Top() {
+const Top = () => {
     const classes = useStyles();
 
     return (
         <div className={cssClasses.top}>
             <Typography className={`${classes.topText} ${classes.color}`} variant="body1"  >How it works</Typography>
 
-            <Grid container alignItems="center" >
+            <Grid container alignItems="center" justifyContent="space-between" >
                 <Grid item md={6} xl={6} >
                     <Typography className={classes.heading} variant="h2" color="primary" >Understand & Release the stress in 3 steps</Typography>
                 </Grid>
-                <Grid item md={6} xl={6}   >
+                <Grid item md={5} xl={5}   >
                     <Typography className={classes.color} variant="body2">
                         Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.
                     </Typography>
@@ -35,3 +34,5 @@ export default function Top() {
         </div>
     )
 }
+
+export default Top;
