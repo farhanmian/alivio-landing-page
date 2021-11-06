@@ -34,6 +34,7 @@ const useStyles = makeStyles({
         position: 'absolute',
         right: 0,
         top: 135,
+        fontFamily: 'Domine'
     },
     bgText: {
         position: 'absolute',
@@ -71,7 +72,7 @@ const Boxes = () => {
                                 {box.heading}
                             </Typography>
                         </div>
-
+                        
                         <Typography className={classes['textPra' + i]} variant="body2">
                             {box.text}
                         </Typography>

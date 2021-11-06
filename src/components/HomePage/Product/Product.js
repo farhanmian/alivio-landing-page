@@ -10,6 +10,9 @@ const useStyles = makeStyles({
         maxHeight: 648,
         margin: 'auto',
     },
+    heading: {
+        fontFamily: 'Domine'
+    },
     imgContainer: {
         width: 699.37,
         height: 648,
@@ -35,7 +38,8 @@ const useStyles = makeStyles({
     },
     btn: {
         wdith: 227,
-        height: 60
+        height: 60,
+        textTransform: 'capitalize'
     },
     topText: {
         marginBottom: 10
@@ -43,7 +47,7 @@ const useStyles = makeStyles({
     text: {
         marginTop: 20,
         marginBottom: 40
-    }
+    },
 });
 
 const Product = () => {
@@ -66,7 +70,7 @@ const Product = () => {
                         Our product
                     </Typography>
 
-                    <Typography variant="h2" color="primary">
+                    <Typography className={classes.heading} variant="h2" color="primary">
                         You tell us your stress,<br />
                         We make your diary
                     </Typography>

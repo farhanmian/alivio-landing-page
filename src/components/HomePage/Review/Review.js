@@ -1,6 +1,5 @@
 import { Button, Typography, makeStyles, Grid } from '@material-ui/core';
 import cssClasses from '../../../../styles/Review.module.css';
-import { common } from '@material-ui/core/colors';
 import videoImg from '../../../../public/img/video.png';
 import Image from 'next/dist/client/image';
 
@@ -16,10 +15,8 @@ const useStyles = makeStyles({
     },
     btn: {
         width: 240,
-        height: 65
-    },
-    textContainer: {
-        // padding
+        height: 65,
+        textTransform: 'none'
     }
 });
 
@@ -30,7 +27,7 @@ const Review = () => {
         <section className={cssClasses.review}>
             <Grid container alignItems="center" className={cssClasses.container}>
 
-                <Grid item md={5} lg={5} xl={5} container className={`${cssClasses.textContainer} ${classes.textContainer}`}>
+                <Grid item md={5} lg={5} xl={5} container className={cssClasses.textContainer}>
                     <Typography className={classes.heading} variant="h2">
                         Let's hear about<br/> Kayla's success story
                     </Typography>
