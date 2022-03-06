@@ -1,18 +1,21 @@
 .header {
-    background-image: linear-gradient(to right, rgba(255,255,255.5) 10%, transparent 40%), url(../public/img/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 83px;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255.5) 10%,
+      transparent 40%
+    ),
+    url(../public/img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 83px;
 }
 
 .container {
-    height: 895px;
-    padding-top: 175px;
-    padding-left: 275px
+  height: 895px;
+  padding-top: 175px;
 }
 
-
 .textContainer {
-    width: 440px;
-    height: 384px;
+  width: 440px;
+  height: 384px;
 }

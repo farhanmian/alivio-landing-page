@@ -25,38 +25,40 @@ const Review = () => {
 
   return (
     <section className={cssClasses.review}>
-      <Grid container alignItems="center" className={cssClasses.container}>
-        <Grid
-          item
-          md={5}
-          lg={5}
-          xl={5}
-          container
-          className={cssClasses.textContainer}
-        >
-          <Typography className={classes.heading} variant="h2">
-            Let`s hear about
-            <br /> Kayla`s success story
-          </Typography>
-
-          <Typography className={classes.text} variant="body1">
-            See how well Alivio works in a real customer`s life.
-          </Typography>
-
-          <Button
-            className={classes.btn}
-            variant="contained"
-            color="primary"
-            disableElevation
+      <div className="innerContainer">
+        <Grid container alignItems="center" className={cssClasses.container}>
+          <Grid
+            item
+            md={5}
+            lg={5}
+            xl={5}
+            container
+            className={cssClasses.textContainer}
           >
-            <Typography variant="subtitle2">Let`s get started</Typography>
-          </Button>
-        </Grid>
+            <Typography className={classes.heading} variant="h2">
+              Let`s hear about
+              <br /> Kayla`s success story
+            </Typography>
 
-        <Grid item md={7} lg={7} xl={7} className={cssClasses.imgContainer}>
-          <Image src={videoImg} alt="img" />
+            <Typography className={classes.text} variant="body1">
+              See how well Alivio works in a real customer`s life.
+            </Typography>
+
+            <Button
+              className={classes.btn}
+              variant="contained"
+              color="primary"
+              disableElevation
+            >
+              <Typography variant="subtitle2">Let`s get started</Typography>
+            </Button>
+          </Grid>
+
+          <Grid item md={7} lg={7} xl={7} className={cssClasses.imgContainer}>
+            <Image src={videoImg} alt="img" />
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     </section>
   );
 };

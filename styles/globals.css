@@ -1,9 +1,8 @@
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 a {
@@ -13,4 +12,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.innerContainer {
+  max-width: 1500px;
+  margin: auto;
 }

@@ -1,25 +1,24 @@
 .review {
-    margin-top: 26px;
-    margin-bottom: 59px;
-    background-color: #245852;
-    padding: 229px 207px 176px 206px;
+  margin-top: 26px;
+  margin-bottom: 59px;
+  background-color: #245852;
+  padding: 229px 0px 176px 0px;
 }
 
 .container {
-    max-width: 1506px;
-    max-height: 516px;
-    margin: auto;
-
+  max-width: 1506px;
+  max-height: 516px;
+  margin: auto;
 }
 
 .textContainer {
-    width: 580px;
-    height: 352px;
-    margin-right: 31px;
-    color: #fff;
+  width: 580px;
+  height: 352px;
+  margin-right: 31px;
+  color: #fff;
 }
 
 .imgContainer {
-    max-width: 896px;
-    max-height: 516px;
+  max-width: 896px;
+  max-height: 516px;
 }
